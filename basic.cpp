@@ -9,18 +9,10 @@
 using namespace std;     // Avoid writing std:: every time
 
 // 🔹 Call by Value Function
-// Receives a COPY of variable; original value DOES NOT change
-void callByValue(int x) {
-    x = 100;
-    cout << "Inside callByValue, x = " << x << endl;
-}
+// Receives a COPY of variable; original value DOES NOT changes
 
 // 🔹 Call by Reference Function
 // Receives a REFERENCE of variable; original value CHANGES
-void callByReference(int &x) {
-    x = 200;
-    cout << "Inside callByReference, x = " << x << endl;
-}
 
 int main() {
 
