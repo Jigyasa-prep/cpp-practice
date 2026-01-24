@@ -75,11 +75,6 @@ int main() {
     int value = 10;
     cout << "Before function calls, value = " << value << endl;
 
-    callByValue(value);          // original value does not change
-    cout << "After callByValue, value = " << value << endl;
-
-    callByReference(value);      // original value changes
-    cout << "After callByReference, value = " << value << endl;
 
     // 🔹 11. STL: Vector (dynamic array)
     vector<int> v = {1, 2, 3};  // vector initialization
